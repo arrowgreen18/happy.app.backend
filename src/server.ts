@@ -21,6 +21,3 @@ app.use(handlerError);
 
 
 
-
-
-app.listen(3333);
