@@ -5,6 +5,9 @@ import routes from './routes';
 import path from 'path';
 import cors from 'cors';
 import handlerError from './errors/handler';
+import * as dotenv from "dotenv";
+
+dotenv.config();
 
 
 const app = express();
@@ -21,3 +24,4 @@ app.use(handlerError);
 
 
 
+app.listen(process.env.PORT || 3333)
