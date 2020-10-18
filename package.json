@@ -30,7 +30,5 @@
   "type": "module",
   "devDependencies": {
     "ts-node-dev": "^1.0.0-pre.63"
-  },
-  "repository": "https://github.com/arrowgreen18/happy.app.backend.git",
-  "author": "<fm3209742@gmail.com>"
+  }
 }
