@@ -1,6 +1,6 @@
 {
-	"type": "sqlite",
-	"database": "./src/database/database.sqlite",
+	"type": "sqlite3",
+	"database": "./src/database.sqlite",
 	"migrations": [
 		"./src/database/migrations/*.ts"
 	],
