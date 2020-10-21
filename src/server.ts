@@ -12,9 +12,7 @@ dotenv.config();
 
 const app = express();
 
-app.use(cors({
-	origin: "https://happyio.herokuapp.com/app",
-}));
+app.use(cors());
 
 app.use(express.json());
 
